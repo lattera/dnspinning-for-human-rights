@@ -17,6 +17,18 @@ The directory structure is as follows:
   included via the `include:` directive.
 * `/protecting`: Config files for domains that should be protected.
 
+## History
+
+This repo was started out of the idea to perform a
+dynamically-updating list of DNS rules promoting Human Rights. Upon
+auditing DNS server hardening, I found attempts to resolve a certain
+neo-nazi social network and decided to take action. There will be no
+nazis on my network.
+
+This spawned a [Mastodon thread](https://bsd.network/@lattera/103500720691059078)
+that brought the idea: a Human Rights-centric PiHole-like list of DNS
+rules.
+
 ## Example production deployment
 
 On a production HardenedBSD + Unbound setup, I have the following
