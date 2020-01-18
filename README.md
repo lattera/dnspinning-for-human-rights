@@ -71,3 +71,11 @@ server:
 #######################################
 include: /usr/local/etc/unbound/dnspinning/blocking/unbound/1.x/nazis.conf
 ```
+
+When I want to update the deployed rules:
+
+```plain
+# cd /usr/local/etc/unbound/dnspinning
+# git pull
+# service unbound reload
+```
